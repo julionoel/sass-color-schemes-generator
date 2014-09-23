@@ -1,0 +1,35 @@
+/*
+ * Color scheme -- green
+ */
+
+$base_color:#78b41e;
+ $primary_gradient1_color:rgb(102, 186, 2);
+ $secondary_gradient1_color:rgb(118, 189, 32);
+ $tertiary_gradient1_color:rgb(139, 194, 64);
+ $quaternary_gradient1_color:rgb(114, 178, 30);
+ $other_gradient1_color:rgb(80, 130, 19);
+ $border_gradient1_color:rgb(80, 130, 19);
+ $primary_gradient2_color:rgb(136, 205, 34);
+ $secondary_gradient2_color:rgb(115, 183, 22);
+ $tertiary_gradient2_color:rgb(87, 155, 6);
+ $primary_gradient3_color:rgb(90, 131, 0);
+ $secondary_gradient3_color:rgb(81, 117, 0);
+ $tertiary_gradient3_color:rgb(90, 119, 3);
+ $primary_button_color:rgb(255, 166, 48);
+ $secondary_button_color:rgb(255, 138, 38);
+ $tertiary_button_color:rgb(255, 118, 0);
+ $quaternary_button_color:rgb(255, 90, 0);
+ $border_button_color:rgb(164, 63, 0);
+ $primary_button2_color:rgb(96, 150, 25);
+ $secondary_button2_color:rgb(128, 191, 34);
+ $private_background_color:#2B2A2A;
+ $private_border_color:#8f8f8f;
+ $header_background_color1:rgb(105, 164, 28);
+ $header_background_color2:rgb(142, 211, 37);
+ $header_border_shadow_color:rgba(192, 192, 192, 0.62);
+ $header_inner_border_shadow_color:#598A17;
+ $header_content_background_color1:#69A41C;
+ $header_content_background_color2:#8ED325;
+ $selected_background_color:$header_background_color1;
+
+ @import "../style";

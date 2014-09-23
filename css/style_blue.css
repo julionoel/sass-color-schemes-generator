@@ -1,0 +1,263 @@
+/* Color scheme -- blue */
+/*
+* CSS for betting mobile app
+* http://www.optimaonline.es/
+*
+* Copyright 2014(c) Optima Information Services
+*
+* Based in http://cssguidelin.es/
+*
+*/
+/** -CONTENTS-  VARIABLES Base Regulation rules  CUSTOM CSS  Drupal class Jquery Mobile override   EXTRA Helpers   Media Queries */
+/*------------------------------------*\ #CUSTOM CSS 
+\*------------------------------------*/
+/*NO AUTOLOGIN SUCCESS*/
+.register-sucess .welcome-message { color: #1A428A; font-weight: bold; }
+
+/*PRIVATE BROWSING*/
+.private-browse-title { border-bottom: 1px solid #8f8f8f; background-color: #2B2A2A; background-image: url("images/private_sj_bg.png"); }
+
+.private-browse-num { background-color: #1A428A; }
+
+/*END PRIVATE BROWSING*/
+/* CATEGORY NAV (NEW CASINO LOBBY)
+---------------------------------------------------------------------- */
+.scroller li.active { text-shadow: 0px 0px 11px #1A428A; color: #1A428A; }
+
+.scroller li.active label:before { background-image: url("images/shine-left.png"); }
+
+.scroller li.active label:after { background-image: url("images/shine-right.png"); }
+
+/*Streaming*/
+.watch-links { display: block; color: white; padding: 4px 5px 4px 5px; text-align: center; font-weight: bold; font-size: 12px; tap-highlight-color: transparent; background: #1A428A; background: -moz-linear-gradient(top, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1A428A), color-stop(48%, #1A428A), color-stop(51%, #1A428A), color-stop(100%, #1A428A)); background: -webkit-linear-gradient(top, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); background: -o-linear-gradient(top, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); background: -ms-linear-gradient(top, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); background: linear-gradient(to bottom, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_button_color', endColorstr='$quaternary_button_color', GradientType=0)"; border: 1px solid #404041; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -moz-box-shadow: inset -1px 1px 7px -1px #FFF; -webkit-box-shadow: inset -1px 1px 7px -1px #FFF; box-shadow: inset -1px 1px 7px -1px #FFF; float: right; }
+
+.watch-links::after { content: ''; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAYAAACEYr13AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHFJREFUeNpiYACC////9wPxfiAOYCAH/EcFIMMEKDEABM4DsQElBsBAAaUGgMB6gl76Txi8B2IHSgyABzClBsACWIESA2BeSgDpZYQZwEAeMKTYAIq9QPdAbBiQhER2Un5PSWaiKDv3k1MikV2kAQQYAAGiYc+tHLWdAAAAAElFTkSuQmCC) no-repeat; display: block; width: 10px; height: 8px; float: right; margin: 3px 1px 0 4px; background-size: 10px 8px; }
+
+/*login welcome modal screen*/
+.login-modal-continue-btn-color, .aux-modal-continue-btn-color { background: #1A428A; background: -moz-linear-gradient(top, #1A428A 0%, #1A428A 25%, #1A428A 50%, #1A428A 53%, #1A428A 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1A428A), color-stop(25%, #1A428A), color-stop(50%, #1A428A), color-stop(53%, #1A428A), color-stop(100%, #1A428A)); background: -webkit-linear-gradient(top, #1A428A 0%, #1A428A 25%, #1A428A 50%, #1A428A 53%, #1A428A 100%); background: -o-linear-gradient(top, #1A428A 0%, #1A428A 25%, #1A428A 50%, #1A428A 53%, #1A428A 100%); background: -ms-linear-gradient(top, #1A428A 0%, #1A428A 25%, #1A428A 50%, #1A428A 53%, #1A428A 100%); background: linear-gradient(to bottom, #1A428A 0%, #1A428A 25%, #1A428A 50%, #1A428A 53%, #1A428A 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_gradient1_color', endColorstr='$quaternary_gradient1_color', GradientType=0)"; border: 1px solid #404041; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.14); }
+
+.login-modal-screen-form-header-color, .aux-modal-screen-form-header-color { background: #1A428A; background: -moz-linear-gradient(top, #1A428A 0%, #1A428A 50%, #1A428A 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1A428A), color-stop(50%, #1A428A), color-stop(100%, #1A428A)); background: -webkit-linear-gradient(top, #1A428A 0%, #1A428A 50%, #1A428A 100%); background: -o-linear-gradient(top, #1A428A 0%, #1A428A 50%, #1A428A 100%); background: -ms-linear-gradient(top, #1A428A 0%, #1A428A 50%, #1A428A 100%); background: linear-gradient(to bottom, #1A428A 0%, #1A428A 50%, #1A428A 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_gradient2_color', endColorstr='$tertiary_gradient2_color', GradientType=0)"; box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.1) inset; }
+
+.login-modal-screen-form-header-btn-color, .aux-modal-screen-form-header-btn-color { background: #1A428A; background: -moz-linear-gradient(top, #1A428A 0%, #1A428A 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1A428A), color-stop(100%, #1A428A)); background: -webkit-linear-gradient(top, #1A428A 0%, #1A428A 100%); background: -o-linear-gradient(top, #1A428A 0%, #1A428A 100%); background: -ms-linear-gradient(top, #1A428A 0%, #1A428A 100%); background: linear-gradient(to bottom, #1A428A 0%, #1A428A 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_gradient3_color', endColorstr='$secondary_gradient3_color', GradientType=0)"; border: 1px solid #1A428A; }
+
+.login-modal-deposit-btn, .aux-modal-deposit-btn { float: right; background: #1A428A; background: -moz-linear-gradient(top, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1A428A), color-stop(48%, #1A428A), color-stop(51%, #1A428A), color-stop(100%, #1A428A)); background: -webkit-linear-gradient(top, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); background: -o-linear-gradient(top, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); background: -ms-linear-gradient(top, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); background: linear-gradient(to bottom, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_button_color', endColorstr='$quaternary_button_color', GradientType=0)"; border: 1px solid #404041; -moz-box-shadow: inset -1px 1px 7px -1px #FFF; -webkit-box-shadow: inset -1px 1px 7px -1px #FFF; box-shadow: inset -1px 1px 7px -1px #FFF; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; /*text*/ width: 100px; font-size: 16px; padding: 7px; color: #fff; text-align: center; }
+
+.btn-cta { background: #1A428A; background: -moz-linear-gradient(top, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1A428A), color-stop(48%, #1A428A), color-stop(51%, #1A428A), color-stop(100%, #1A428A)); background: -webkit-linear-gradient(top, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); background: -o-linear-gradient(top, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); background: -ms-linear-gradient(top, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); background: linear-gradient(to bottom, #1A428A 0%, #1A428A 48%, #1A428A 51%, #1A428A 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_button_color', endColorstr='$quaternary_button_color', GradientType=0)"; border: 1px solid #404041; -moz-box-shadow: inset -1px 1px 7px -1px #FFF; -webkit-box-shadow: inset -1px 1px 7px -1px #FFF; box-shadow: inset -1px 1px 7px -1px #FFF; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; font-size: 16px; padding: 7px; color: #fff; text-align: center; }
+
+/*splash*/
+.loaderSplash { background-image: url("images/loader.gif"); display: inline-block; width: 60px; height: 60px; background-size: 100%; }
+
+.bet-history-field-name { color: #1A428A; }
+
+.bet-history-date-summary { height: 30px; line-height: 30px; padding-left: 9px; color: #1A428A; border-bottom: 1px solid #CCC; border-top: 1px solid #CCC; }
+
+.copyright .contact-us { color: #1A428A; }
+
+.ui-header-1 { background-color: #1A428A; background: linear-gradient(top, #1A428A, #1A428A); background-image: -o-linear-gradient(top, #1A428A, #1A428A); background: -moz-linear-gradient(top, #1A428A, #1A428A); background: -ms-linear-gradient(top, #1A428A, #1A428A); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$header_background_color2', endColorstr='$header_background_color1')"; background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#1A428A), to(#1A428A)); }
+
+.content-header { background: #1A428A; background: -webkit-gradient(linear, 0% 0, 0% 100%, color-stop(0%, #1A428A), color-stop(100%, #1A428A)); }
+
+.content-header h1 { text-shadow: 1px 1px #0a1934; }
+
+.form-submit { background: #1A428A; background: -webkit-gradient(linear, 0% 0, 0% 100%, color-stop(0, #1A428A), color-stop(1, #1A428A)); background: linear-gradient(top, #1A428A, #1A428A); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$secondary_button2_color', endColorstr='$primary_button2_color')"; background-image: -o-linear-gradient(top, #1A428A, #1A428A); background: -moz-linear-gradient(top, #1A428A, #1A428A); border: 1px solid #404041; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.14); }
+
+.content-footer, .sport-promotions .promotions-container:after { background: #1A428A; background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #1A428A), color-stop(100%, #1A428A)); }
+
+.bet-selection-wrapper.bet-clicked, .quick-bet-item.bet-clicked, .bet-item.bet-clicked { background: #1A428A !important; color: white !important; }
+
+.bet-selection-wrapper.bet-selected.bet-odd, .quick-bet-item.bet-selected.bet-odd, .bet-item.bet-selected.bet-odd { background: #1A428A !important; }
+
+.bet-selection-wrapper.bet-selected.bet-even, .quick-bet-item.bet-selected.bet-even, .bet-item.bet-selected.bet-even { background: #1A428A !important; }
+
+.bet-slip-receipt-bet-header, .backColor-message-rightsided, .total-bet-receipt-total-stake-container { background: #9db9ed !important; }
+
+.dialog-green-h1, .dialog-theme-h1 { background-color: #1A428A; background: linear-gradient(top, #1A428A, #1A428A) !important; background-image: -o-linear-gradient(top, #1A428A, #1A428A) !important; background: -moz-linear-gradient(top, #1A428A, #1A428A) !important; background: -ms-linear-gradient(top, #1A428A, #1A428A) !important; filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$header_background_color2', endColorstr='$header_background_color1') !important"; background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#1A428A), to(#1A428A)) !important; }
+
+.welcome-continue-link, .responsible-gaming-links { background: #1A428A; background: -moz-linear-gradient(top, #1A428A 0%, #1A428A 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #1A428A), color-stop(100%, #1A428A)); background: -webkit-linear-gradient(top, #1A428A 0%, #1A428A 100%); background: -o-linear-gradient(top, #1A428A 0%, #1A428A 100%); background: -ms-linear-gradient(top, #1A428A 0%, #1A428A 100%); background: linear-gradient(to bottom, #1A428A 0%, #1A428A 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$secondary_button2_color', endColorstr='$primary_button2_color', GradientType=0)"; border: 1px solid #0a1934; }
+
+.dialog-green a.ui-btn { background: linear-gradient(top, #1A428A, #1A428A); background-image: -o-linear-gradient(top, #1A428A, #1A428A); background: -moz-linear-gradient(top, #1A428A, #1A428A); background: -ms-linear-gradient(top, #1A428A, #1A428A); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$header_background_color2', endColorstr='$header_background_color1')"; background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#1A428A), to(#1A428A)); }
+
+.ui-body-c .ui-link { color: #1A428A; }
+
+.ui-body-c, .ui-dialog.ui-overlay-c { text-shadow: none; }
+
+.iconselectholder, .hoverclas, .selectedclass { background-color: #1A428A; }
+
+select:focus { border: 1px solid #9db9ed; background: #404041; }
+
+.bet-slip-receipt-bet-header-container { background: #9db9ed; }
+
+.back-button { border-right: 1px solid #122A55; box-shadow: 1px 0px 0px #1A4FAD; }
+
+.header-right { border-left: 1px solid #122A55; box-shadow: -1px 0px 0px #1A4FAD; }
+
+/* ------------- SPORT AND MARKET ICONS -------------  SPORT AND MARKET ICONS -------------  SPORT AND MARKET ICONS ------------- */
+.nav-arrow { float: right; height: 8px; width: 8px; background: url(images/arrow.png); background-position: center; background-repeat: no-repeat; background-size: 8px 8px; }
+
+.nav-arrow-clicked { float: right; height: 16px; margin-right: -4px; width: 16px; background: url(images/list-item-progress.gif); background-position: center; background-repeat: no-repeat; }
+
+.icon-visa-card { background-image: url("images/account/card-visa.png"); background-repeat: no-repeat; background-size: 70px 43px; margin: 5px 10px; height: 43px; width: 70px; display: block; }
+
+.icon-s2w { background-image: url("images/account/card-s2w.png"); background-repeat: no-repeat; background-size: 70px 43px; margin: 5px 10px; height: 43px; width: 70px; display: block; }
+
+.icon-visa { background-image: url("images/account/card-visa.png"); background-repeat: no-repeat; background-size: 70px 43px; height: 43px; width: 70px; display: block; }
+
+.icon-mastercard { background-image: url("images/account/card-mastercard.png"); background-repeat: no-repeat; background-size: 70px 43px; height: 43px; width: 70px; display: block; }
+
+.cancel-icon { background-image: url("images/delete-icon.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 0px 5px; height: 20px; width: 20px; display: block; }
+
+.slider-arrow-left { height: 15px; float: left; width: 20px; background: url(images/scroll-arrow.png); margin: 14px 5px; background-repeat: no-repeat; background-position: 0 0; }
+
+.splash-screen { width: 100%; color: white; font-weight: bold; background: #1A428A; background: radial-gradient(#1A428A 0%, #1A428A 90%); background: -webkit-radial-gradient(#1A428A 0%, #1A428A 90%); }
+
+#footer { background-image: url(images/footer-bg.png) !important; background-repeat: repeat; padding: 1em; background-size: 3px 3px; }
+
+.footer-image { background-image: url("images/footer.png") !important; background-repeat: no-repeat; display: block; background-position: 50% 50%; height: 95px; }
+
+#back_image_icon { background-position: center; float: left; padding: 25px 25px; background-image: url("images/back-arrow.png") !important; background-repeat: no-repeat; }
+
+.free-bet-check-box, .reg-tandc-check-box, .ew-check-box, .ew-check-box-multiple { background: url(images/checkbox.png); background-repeat: no-repeat; background-size: 52px 28px; background-position: -27px 0; width: 26px; height: 24px; float: left; border-radius: 5px; border: 1px solid black; display: block; }
+
+.ew-check-box-multiple { background: url(images/checkbox.png); background-repeat: no-repeat; background-size: 52px 28px; background-position: -27px 0; width: 26px; height: 24px; border-radius: 5px; border: 1px solid black; }
+
+.slider-arrow-right-arrow { height: 15px; float: left; width: 15px; background: url(images/scroll-arrow.png); margin: 14px 5px; background-repeat: no-repeat; background-position: 0 -52px; }
+
+.slider-arrow-right-container { height: 47px; width: 20px; float: right; position: absolute; right: 0; background: #EEE; }
+
+.free-bet-info-icon { background-image: url("images/freebetInfo.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 0 !important; float: left; height: 20px; width: 20px; display: block; }
+
+.cv2-info-icon { background-image: url("images/cv2info.png"); background-repeat: no-repeat; background-size: 20px 20px; height: 20px; width: 20px; display: block; }
+
+.info-icon-betslip { background-image: url("images/information-icon.png"); background-repeat: no-repeat; background-size: 20x 20px; margin: 08px 5px; height: 20px; width: 20px; display: block; }
+
+.info-icon { background-image: url("images/information-icon.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 5px; height: 20px; width: 20px; display: table-cell; float: left; }
+
+.info-icon-2 { background-image: url("images/information-icon.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 5px; height: 20px; width: 20px; display: table-cell; float: left; }
+
+.cancel-button-icon { background-image: url("images/delete-icon.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 8px 0 0 10px; height: 20px; width: 20px; display: block; }
+
+.cancel-button-icon-2 { background-image: url("images/delete-icon.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 8px 0 0 10px; height: 20px; width: 20px; display: block; }
+
+.accept-button-icon { background-image: url("images/accept.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 8px 0 0 10px; height: 20px; width: 20px; display: block; }
+
+.accept-button-icon-2 { background-image: url("images/accept.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 8px 0 0 10px; height: 20px; width: 20px; display: block; }
+
+.account-image-deposit { background-image: url("images/account/account-deposit-icon.png"); background-repeat: no-repeat; }
+
+.account-image-withdraw { background-image: url("images/account/account-withdraw-icon.png"); background-repeat: no-repeat; }
+
+.account-image-bet-history { background-image: url("images/account/account-bet-history-icon.png"); background-repeat: no-repeat; }
+
+.account-image-trans-history { background-image: url("images/account/account-trans-history-icon.png"); background-repeat: no-repeat; }
+
+.account-image-resp { background-image: url("images/account/account-responsible-gambling-icon.png"); background-repeat: no-repeat; }
+
+.account-image-pref { background-image: url("images/account/account-my-prefs-icon.png"); background-repeat: no-repeat; }
+
+.account-image-contact { background-image: url("images/account/account-contact-icon.png"); background-repeat: no-repeat; }
+
+.account-image-logout { background-image: url("images/account/account-logout-icon.png"); background-repeat: no-repeat; }
+
+.auto-exclusion { background: url("images/AutoExclusion.png"); background-size: 32px 30px; background-position: 50% 50%; background-repeat: no-repeat; height: 30px; width: 32px; display: inline-block; }
+
+.juego-seguro { background: url("images/footer-juego-seguro-logo.png"); background-size: 146px 21px; background-position: 50% 50%; background-repeat: no-repeat; height: 21px; width: 146px; display: inline-block; }
+
+.iconselect { background: url(images/language-bg-uk.png); font: 13px Arial, Helvetica, sans-serif; padding: 3px 4px 0 4px; }
+
+.language-selector-bg-uk { background-image: url("images/language-bg-uk.png"); background-repeat: no-repeat; }
+
+.language-selector-bg-es { background-image: url("images/language-bg-es.png"); background-repeat: no-repeat; }
+
+.language-selector-bg-el { background-image: url("images/language-bg-el.png"); background-repeat: no-repeat; }
+
+@media only screen and (-moz-min-device-pixel-ratio: 2), only screen and (-o-min-device-pixel-ratio: 2), only screen and (-webkit-min-device-pixel-ratio: 2), only screen and (min-device-pixel-ratio: 2) { .casino-icon-low-resolution { display: none; }
+  .casino-icon-high-resolution { display: block; }
+  .load { display: none; }
+  .nav-arrow { background: url(images/arrow@2x.png); }
+  .nav-arrow-clicked { background: url(images/list-item-progress@2x.gif); }
+  .icon-visa-card { background-image: url("images/account/card-visa@2x.png"); background-repeat: no-repeat; background-size: 70px 43px; margin: 5px 10px; height: 43px; width: 70px; display: block; }
+  .icon-s2w { background-image: url("images/account/card-s2w@2x.png"); background-repeat: no-repeat; background-size: 70px 43px; margin: 5px 10px; height: 43px; width: 70px; display: block; }
+  .icon-visa { background-image: url("images/account/card-visa@2x.png"); background-repeat: no-repeat; background-size: 70px 43px; height: 43px; width: 70px; display: block; }
+  .icon-mastercard { background-image: url("images/account/card-mastercard@2x.png"); background-repeat: no-repeat; background-size: 70px 43px; height: 43px; width: 70px; display: block; }
+  .cancel-icon { background-image: url("images/delete-icon@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 0px 10px; height: 20px; width: 20px; display: block; }
+  .slider-arrow-left { height: 15px; float: left; width: 20px; background: url(images/scroll-arrow@2x.png); margin: 14px 5px; background-repeat: no-repeat; background-position: 0 0; }
+  .slider-arrow-left-container { height: 47px; width: 30px; float: left; position: absolute; left: 0; background: #EEE; }
+  /*.splash-screen { width: 100%; background: #000; color: white; font-weight: bold; background: green; background: linear-gradient(top, $header_background_color2, $header_background_color1); background-image: -o-linear-gradient(top, $header_background_color2, $header_background_color1); background: -moz-linear-gradient(top, $header_background_color2, $header_background_color1); background: -ms-linear-gradient(top, $header_background_color2, $header_background_color1); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$header_background_color2', endColorstr='$header_background_color1')"; background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from($header_background_color2), to($header_background_color1)); float: none; clear: both; color: #fff; overflow: hidden; }*/
+  #back_image_icon { background-position: center; padding: 25px 25px; background-image: url("images/back-arrow@2x.png") !important; background-repeat: no-repeat; background-size: 20px 20px; }
+  .free-bet-check-box, .reg-tandc-check-box, .ew-check-box, .ew-check-box-multiple { background: url(images/checkbox@2x.png); background-repeat: no-repeat; background-size: 52px 27px; background-position: -27px 0; width: 26px; height: 24px; float: left; border-radius: 5px; border: 1px solid black; display: block; }
+  .ew-check-box-multiple { background: url(images/checkbox@2x.png); background-repeat: no-repeat; background-size: 52px 27px; background-position: -27px 0; width: 26px; height: 24px; border-radius: 5px; border: 1px solid black; }
+  .slider-arrow-right-arrow { height: 15px; float: left; width: 15px; background: url(images/scroll-arrow@2x.png); margin: 14px 5px; background-repeat: no-repeat; background-position: 0 -52px; }
+  .slider-arrow-right-container { height: 47px; width: 20px; float: right; position: absolute; right: 0; background: #EEE; }
+  .free-bet-info-icon { background-image: url("images/freebetInfo@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 0 !important; float: left; height: 20px; width: 20px; display: block; }
+  .cv2-info-icon { background-image: url("images/cv2info@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; height: 20px; width: 20px; display: block; }
+  .info-icon-betslip { background-image: url("images/information-icon@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 08px 10px; height: 20px; width: 20px; display: block; }
+  .info-icon { background-image: url("images/information-icon@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 5px; height: 20px; width: 20px; display: inline-block; }
+  .info-icon-2 { background-image: url("images/information-icon@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 5px 5px; height: 20px; width: 20px; display: inline-block; }
+  .cancel-button-icon { background-image: url("images/delete-icon@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 8px 0 0 10px; height: 20px; width: 20px; display: block; }
+  .cancel-button-icon-2 { background-image: url("images/delete-icon@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 8px 0 0 10px; height: 20px; width: 20px; display: block; }
+  .accept-button-icon { background-image: url("images/accept@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 8px 0 0 10px; height: 20px; width: 20px; display: block; }
+  .accept-button-icon-2 { background-image: url("images/accept@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 8px 0 0 10px; height: 20px; width: 20px; display: block; }
+  .account-image-deposit { background-image: url("images/account/account-deposit-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-withdraw { background-image: url("images/account/account-withdraw-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-bet-history { background-image: url("images/account/account-bet-history-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-trans-history { background-image: url("images/account/account-trans-history-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-resp { background-image: url("images/account/account-responsible-gambling-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-pref { background-image: url("images/account/account-my-prefs-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-contact { background-image: url("images/account/account-contact-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-logout { background-image: url("images/account/account-logout-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  #footer { background-image: url(images/footer-bg@2x.png) !important; background-repeat: repeat; padding: 1em; }
+  .footer-image { background-image: url("images/footer@2x.png") !important; background-repeat: no-repeat; background-size: 273px 94px; display: block; background-position: 50% 50%; }
+  .auto-exclusion { background: url("images/AutoExclusion@2x.png"); background-size: 32px 30px; background-position: 50% 50%; background-repeat: no-repeat; height: 30px; width: 32px; display: inline-block; }
+  .juego-seguro { background: url("images/footer-juego-seguro-logo@2x.png"); background-size: 146px 21px; background-position: 50% 50%; background-repeat: no-repeat; height: 21px; width: 146px; display: inline-block; }
+  .iconselect { background: url(images/language-bg-uk@2x.png); font: 13px Arial, Helvetica, sans-serif; background-size: 38px 20px; background-repeat: no-repeat; }
+  .language-selector-bg-uk { background-image: url("images/language-bg-uk@2x.png"); background-size: 38px 20px; background-repeat: no-repeat; height: 20px; width: 38px; }
+  .language-selector-bg-es { background-image: url("images/language-bg-es@2x.png"); background-repeat: no-repeat; background-size: 38px 20px; height: 20px; width: 38px; }
+  .language-selector-bg-el { background-image: url("images/language-bg-el@2x.png"); background-repeat: no-repeat; background-size: 38px 20px; height: 20px; width: 38px; } }
+@media only screen and (-moz-min-device-pixel-ratio: 1.5), only screen and (-o-min-device-pixel-ratio: 1.5), only screen and (-webkit-min-device-pixel-ratio: 1.5), only screen and (min-device-pixel-ratio: 1.5), screen and (min-device-width: 768px) { .casino-icon-low-resolution { display: none; }
+  .casino-icon-high-resolution { display: block; }
+  .featured-events { background-position: center; }
+  .sean-testing-filter { background-position: center; }
+  .load { display: none; }
+  .nav-arrow { background: url(images/arrow@2x.png); }
+  .nav-arrow-clicked { background: url(images/list-item-progress@2x.gif); }
+  .icon-visa-card { background-image: url("images/account/card-visa@2x.png"); background-repeat: no-repeat; background-size: 70px 43px; margin: 5px 10px; height: 43px; width: 70px; display: block; }
+  .icon-s2w { background-image: url("images/account/card-s2w@2x.png"); background-repeat: no-repeat; background-size: 70px 43px; margin: 5px 10px; height: 43px; width: 70px; display: block; }
+  .icon-visa { background-image: url("images/account/card-visa@2x.png"); background-repeat: no-repeat; background-size: 70px 43px; height: 43px; width: 70px; display: block; }
+  .icon-mastercard { background-image: url("images/account/card-mastercard@2x.png"); background-repeat: no-repeat; background-size: 70px 43px; height: 43px; width: 70px; display: block; }
+  .cancel-icon { background-image: url("images/delete-icon@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 0px 10px; height: 20px; width: 20px; display: block; }
+  .slider-arrow-left { height: 15px; float: left; width: 20px; background: url(images/scroll-arrow@2x.png); margin: 14px 5px; background-repeat: no-repeat; background-position: 0 0; }
+  .slider-arrow-left-container { height: 47px; width: 30px; float: left; position: absolute; left: 0; background: #EEE; }
+  #back_image_icon { background-position: center; padding: 25px 25px; background-image: url("images/back-arrow@2x.png") !important; background-repeat: no-repeat; background-size: 20px 20px; }
+  .free-bet-check-box, .reg-tandc-check-box, .ew-check-box, .ew-check-box-multiple { background: url(images/checkbox@2x.png); background-repeat: no-repeat; background-size: 52px 27px; background-position: -27px 0; width: 26px; height: 24px; float: left; border-radius: 5px; border: 1px solid black; display: block; }
+  .ew-check-box-multiple { background: url(images/checkbox@2x.png); background-repeat: no-repeat; background-size: 52px 27px; background-position: -27px 0; width: 26px; height: 24px; border-radius: 5px; border: 1px solid black; }
+  .slider-arrow-right-arrow { height: 15px; float: left; width: 15px; background: url(images/scroll-arrow@2x.png); margin: 14px 5px; background-repeat: no-repeat; background-position: 0 -52px; }
+  .slider-arrow-right-container { height: 47px; width: 20px; float: right; position: absolute; right: 0; background: #EEE; }
+  .free-bet-info-icon { background-image: url("images/freebetInfo@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 0 !important; float: left; height: 20px; width: 20px; display: block; }
+  .cv2-info-icon { background-image: url("images/cv2info@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; height: 20px; width: 20px; display: block; }
+  .info-icon-betslip { background-image: url("images/information-icon@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 08px 10px; height: 20px; width: 20px; display: block; }
+  .info-icon { background-image: url("images/information-icon@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 5px; height: 20px; width: 20px; display: inline-block; }
+  .info-icon-2 { background-image: url("images/information-icon@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 5px 5px; height: 20px; width: 20px; display: inline-block; }
+  .cancel-button-icon { background-image: url("images/delete-icon@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 8px 0 0 10px; height: 20px; width: 20px; display: block; }
+  .cancel-button-icon-2 { background-image: url("images/delete-icon@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 8px 0 0 10px; height: 20px; width: 20px; display: block; }
+  .accept-button-icon { background-image: url("images/accept@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 8px 0 0 10px; height: 20px; width: 20px; display: block; }
+  .accept-button-icon-2 { background-image: url("images/accept@2x.png"); background-repeat: no-repeat; background-size: 20px 20px; margin: 8px 0 0 10px; height: 20px; width: 20px; display: block; }
+  .account-image-deposit { background-image: url("images/account/account-deposit-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-withdraw { background-image: url("images/account/account-withdraw-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-bet-history { background-image: url("images/account/account-bet-history-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-trans-history { background-image: url("images/account/account-trans-history-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-resp { background-image: url("images/account/account-responsible-gambling-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-pref { background-image: url("images/account/account-my-prefs-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-contact { background-image: url("images/account/account-contact-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  .account-image-logout { background-image: url("images/account/account-logout-icon@2x.png"); background-repeat: no-repeat; background-size: 78px 78px; }
+  #footer { background-image: url(images/footer-bg@2x.png) !important; background-repeat: repeat; padding: 1em; }
+  .footer-image { background-image: url("images/footer@2x.png") !important; background-repeat: no-repeat; background-size: 273px 94px; display: block; background-position: 50% 50%; }
+  .auto-exclusion { background: url("images/AutoExclusion@2x.png"); background-size: 32px 30px; background-position: 50% 50%; background-repeat: no-repeat; height: 30px; width: 32px; display: inline-block; }
+  .juego-seguro { background: url("images/footer-juego-seguro-logo@2x.png"); background-size: 146px 21px; background-position: 50% 50%; background-repeat: no-repeat; height: 21px; width: 146px; display: inline-block; }
+  .iconselect { background: url(images/language-bg-uk@2x.png); font: 13px Arial, Helvetica, sans-serif; background-size: 38px 20px; background-repeat: no-repeat; }
+  .language-selector-bg-uk { background-image: url("images/language-bg-uk@2x.png"); background-size: 38px 20px; background-repeat: no-repeat; height: 20px; width: 38px; }
+  .language-selector-bg-es { background-image: url("images/language-bg-es@2x.png"); background-repeat: no-repeat; background-size: 38px 20px; height: 20px; width: 38px; }
+  .language-selector-bg-el { background-image: url("images/language-bg-el@2x.png"); background-repeat: no-repeat; background-size: 38px 20px; height: 20px; width: 38px; }
+  .bet-header-right { right: 0; top: 0; position: absolute; background: url("images/expand-list@2x.png"); display: inline-block; background-repeat: no-repeat; background-size: 17px 15px; margin: 10px; margin-right: 11px; height: 16px; width: 17px; opacity: 0.35; -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); }
+  .bet-header-down { background-image: url("images/collapse-list@2x.png"); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); } }
+
+/*# sourceMappingURL=style_blue.css.map */

@@ -1,0 +1,35 @@
+/*
+ * Color scheme -- purple
+ */
+
+$base_color:#e2007d;
+ $primary_gradient1_color:rgb(209, 207, 208);
+ $secondary_gradient1_color:rgb(244, 244, 244);
+ $tertiary_gradient1_color:rgb(255, 255, 255);
+ $quaternary_gradient1_color:rgb(215, 215, 215);
+ $other_gradient1_color:rgb(184, 184, 184);
+ $border_gradient1_color:rgb(149, 149, 149);
+ $primary_gradient2_color:rgb(50, 50, 50);
+ $secondary_gradient2_color:rgb(30, 30, 30);
+ $tertiary_gradient2_color:rgb(10, 10, 10);
+ $primary_gradient3_color:rgb(230, 16, 139);
+ $secondary_gradient3_color:rgb(235, 16, 144);
+ $tertiary_gradient3_color:rgb(230, 9, 148);
+ $primary_button_color:rgb(239, 79, 180);
+ $secondary_button_color:rgb(234, 42, 163);
+ $tertiary_button_color:rgb(210, 37, 146);
+ $quaternary_button_color:rgb(229, 8, 147);
+ $border_button_color:rgb(230, 9, 148);
+ $primary_button2_color:rgb(228, 0, 144);
+ $secondary_button2_color:rgb(241, 87, 184);
+ $private_background_color:#5f5d5e;
+ $private_border_color:#8f8f8f;
+ $header_background_color1:rgb(0, 0, 0);
+ $header_background_color2:rgb(46, 46, 46);
+ $header_border_shadow_color:#000000;
+ $header_inner_border_shadow_color:#404149;
+ $header_content_background_color1:#E40090;
+ $header_content_background_color2:#F157B8;
+ $selected_background_color:$secondary_button2_color;
+
+ @import "../style";
