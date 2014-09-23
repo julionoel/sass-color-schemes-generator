@@ -69,7 +69,7 @@ module.exports = function(grunt) {
       });
 
     // Sort by hue
-    colors = palettable.sortColors(colors, options.colorSortFunction);
+    //colors = palettable.sortColors(colors, options.colorSortFunction);
 
     // Calculate all derivative values based on the initial color
     palettable.calculateDerivativeInformation(
@@ -88,6 +88,7 @@ module.exports = function(grunt) {
           { data: colorHash } );
 
       divs.push(contents);
+
     });
 
     // Assemble final color palette HTML

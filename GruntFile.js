@@ -12,7 +12,7 @@ module.exports = function(grunt) {
     require('load-grunt-tasks')(grunt);
 
 
-    var themesFolder = 'C:/wp/optima/mobile/sites2/all/themes/';
+    var themesFolder = 'C:/wp/optima/mobile/sites/all/themes/';
     var betpackFolder = themesFolder + '/betpack';
     var gobetFolder = themesFolder + '/gobet';
     var gobetCyprusFolder = themesFolder + '/gobetCyprus';
@@ -28,13 +28,15 @@ module.exports = function(grunt) {
         pkg: grunt.file.readJSON('package.json'),
 
         // Before generating any new files, remove any previously-created files.
-        clean: ['css/'],
+        clean: ['css/', 'tmp/'],
         jshint: {
             all: [
+                'Gruntfile.js',
                 '*.js'
             ],
             options: {
-                jshintrc: '.jshintrc'
+                jshintrc: '.jshintrc',
+                reporter: require('jshint-stylish')
             }
         },
 
@@ -68,9 +70,9 @@ module.exports = function(grunt) {
         palettable: {
             options: {
                 outputFilePath: 'tmp/palettable.html',
-                stylesDirectory: 'css/',
-                templateLayoutPath: 'test/templates/layout.html',
-                templateSwatchPath: 'test/templates/swatch.html'
+                stylesDirectory: 'scss/schemes/',
+                templateLayoutPath: 'templates/layout.html',
+                templateSwatchPath: 'templates/swatch.html'
             }
         },
         copy: {
@@ -108,14 +110,11 @@ module.exports = function(grunt) {
     });
 
     // Actually load this plugin's task(s).
-    //grunt.loadTasks('tasks');
-
-    grunt.loadNpmTasks('grunt-css-purge');
-
-    grunt.registerTask('palettable', ['clean', 'palettable'], function() {
-        grunt.log.write('Palettable ready...').ok();
-    });
+    grunt.loadTasks('tasks');
 
 
-    grunt.registerTask('build', ['jshint','clean', 'sass', 'copy']);
+    grunt.registerTask('html', ['clean', 'sass', 'palettable']);
+
+
+    grunt.registerTask('build', ['jshint', 'clean', 'sass', 'copy']);
 };
