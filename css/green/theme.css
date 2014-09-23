@@ -1,4 +1,4 @@
-/* Color scheme -- purple */
+/* Color scheme -- green */
 /*
 * CSS for betting mobile app
 * http://www.optimaonline.es/
@@ -12,84 +12,84 @@
 /*------------------------------------*\ #CUSTOM CSS 
 \*------------------------------------*/
 /*NO AUTOLOGIN SUCCESS*/
-.register-sucess .welcome-message { color: #e2007d; font-weight: bold; }
+.register-sucess .welcome-message { color: #78b41e; font-weight: bold; }
 
 /*PRIVATE BROWSING*/
-.private-browse-title { border-bottom: 1px solid #8f8f8f; background-color: #5f5d5e; background-image: url("images/private_sj_bg.png"); }
+.private-browse-title { border-bottom: 1px solid #8f8f8f; background-color: #2B2A2A; background-image: url("images/private_sj_bg.png"); }
 
-.private-browse-num { background-color: #e2007d; }
+.private-browse-num { background-color: #78b41e; }
 
 /*END PRIVATE BROWSING*/
 /* CATEGORY NAV (NEW CASINO LOBBY)
 ---------------------------------------------------------------------- */
-.scroller li.active { text-shadow: 0px 0px 11px #e2007d; color: #e2007d; }
+.scroller li.active { text-shadow: 0px 0px 11px #78b41e; color: #78b41e; }
 
 .scroller li.active label:before { background-image: url("images/shine-left.png"); }
 
 .scroller li.active label:after { background-image: url("images/shine-right.png"); }
 
 /*Streaming*/
-.watch-links { display: block; color: white; padding: 4px 5px 4px 5px; text-align: center; font-weight: bold; font-size: 12px; tap-highlight-color: transparent; background: #ef4fb4; background: -moz-linear-gradient(top, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ef4fb4), color-stop(48%, #ea2aa3), color-stop(51%, #d22592), color-stop(100%, #e50893)); background: -webkit-linear-gradient(top, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); background: -o-linear-gradient(top, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); background: -ms-linear-gradient(top, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); background: linear-gradient(to bottom, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_button_color', endColorstr='$quaternary_button_color', GradientType=0)"; border: 1px solid #e60994; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -moz-box-shadow: inset -1px 1px 7px -1px #FFF; -webkit-box-shadow: inset -1px 1px 7px -1px #FFF; box-shadow: inset -1px 1px 7px -1px #FFF; float: right; }
+.watch-links { display: block; color: white; padding: 4px 5px 4px 5px; text-align: center; font-weight: bold; font-size: 12px; tap-highlight-color: transparent; background: #ffa630; background: -moz-linear-gradient(top, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffa630), color-stop(48%, #ff8a26), color-stop(51%, #ff7600), color-stop(100%, #ff5a00)); background: -webkit-linear-gradient(top, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); background: -o-linear-gradient(top, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); background: -ms-linear-gradient(top, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); background: linear-gradient(to bottom, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_button_color', endColorstr='$quaternary_button_color', GradientType=0)"; border: 1px solid #a43f00; -webkit-border-radius: 4px; -moz-border-radius: 4px; border-radius: 4px; -moz-box-shadow: inset -1px 1px 7px -1px #FFF; -webkit-box-shadow: inset -1px 1px 7px -1px #FFF; box-shadow: inset -1px 1px 7px -1px #FFF; float: right; }
 
 .watch-links::after { content: ''; background: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAUCAYAAACEYr13AAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAAHFJREFUeNpiYACC////9wPxfiAOYCAH/EcFIMMEKDEABM4DsQElBsBAAaUGgMB6gl76Txi8B2IHSgyABzClBsACWIESA2BeSgDpZYQZwEAeMKTYAIq9QPdAbBiQhER2Un5PSWaiKDv3k1MikV2kAQQYAAGiYc+tHLWdAAAAAElFTkSuQmCC) no-repeat; display: block; width: 10px; height: 8px; float: right; margin: 3px 1px 0 4px; background-size: 10px 8px; }
 
 /*login welcome modal screen*/
-.login-modal-continue-btn-color, .aux-modal-continue-btn-color { background: #d1cfd0; background: -moz-linear-gradient(top, #d1cfd0 0%, #f4f4f4 25%, white 50%, #d7d7d7 53%, #b8b8b8 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #d1cfd0), color-stop(25%, #f4f4f4), color-stop(50%, white), color-stop(53%, #d7d7d7), color-stop(100%, #b8b8b8)); background: -webkit-linear-gradient(top, #d1cfd0 0%, #f4f4f4 25%, white 50%, #d7d7d7 53%, #b8b8b8 100%); background: -o-linear-gradient(top, #d1cfd0 0%, #f4f4f4 25%, white 50%, #d7d7d7 53%, #b8b8b8 100%); background: -ms-linear-gradient(top, #d1cfd0 0%, #f4f4f4 25%, white 50%, #d7d7d7 53%, #b8b8b8 100%); background: linear-gradient(to bottom, #d1cfd0 0%, #f4f4f4 25%, white 50%, #d7d7d7 53%, #b8b8b8 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_gradient1_color', endColorstr='$quaternary_gradient1_color', GradientType=0)"; border: 1px solid #959595; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.14); }
+.login-modal-continue-btn-color, .aux-modal-continue-btn-color { background: #66ba02; background: -moz-linear-gradient(top, #66ba02 0%, #76bd20 25%, #8bc240 50%, #72b21e 53%, #508213 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #66ba02), color-stop(25%, #76bd20), color-stop(50%, #8bc240), color-stop(53%, #72b21e), color-stop(100%, #508213)); background: -webkit-linear-gradient(top, #66ba02 0%, #76bd20 25%, #8bc240 50%, #72b21e 53%, #508213 100%); background: -o-linear-gradient(top, #66ba02 0%, #76bd20 25%, #8bc240 50%, #72b21e 53%, #508213 100%); background: -ms-linear-gradient(top, #66ba02 0%, #76bd20 25%, #8bc240 50%, #72b21e 53%, #508213 100%); background: linear-gradient(to bottom, #66ba02 0%, #76bd20 25%, #8bc240 50%, #72b21e 53%, #508213 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_gradient1_color', endColorstr='$quaternary_gradient1_color', GradientType=0)"; border: 1px solid #508213; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.14); }
 
-.login-modal-screen-form-header-color, .aux-modal-screen-form-header-color { background: #323232; background: -moz-linear-gradient(top, #323232 0%, #1e1e1e 50%, #0a0a0a 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #323232), color-stop(50%, #1e1e1e), color-stop(100%, #0a0a0a)); background: -webkit-linear-gradient(top, #323232 0%, #1e1e1e 50%, #0a0a0a 100%); background: -o-linear-gradient(top, #323232 0%, #1e1e1e 50%, #0a0a0a 100%); background: -ms-linear-gradient(top, #323232 0%, #1e1e1e 50%, #0a0a0a 100%); background: linear-gradient(to bottom, #323232 0%, #1e1e1e 50%, #0a0a0a 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_gradient2_color', endColorstr='$tertiary_gradient2_color', GradientType=0)"; box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.1) inset; }
+.login-modal-screen-form-header-color, .aux-modal-screen-form-header-color { background: #88cd22; background: -moz-linear-gradient(top, #88cd22 0%, #73b716 50%, #579b06 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #88cd22), color-stop(50%, #73b716), color-stop(100%, #579b06)); background: -webkit-linear-gradient(top, #88cd22 0%, #73b716 50%, #579b06 100%); background: -o-linear-gradient(top, #88cd22 0%, #73b716 50%, #579b06 100%); background: -ms-linear-gradient(top, #88cd22 0%, #73b716 50%, #579b06 100%); background: linear-gradient(to bottom, #88cd22 0%, #73b716 50%, #579b06 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_gradient2_color', endColorstr='$tertiary_gradient2_color', GradientType=0)"; box-shadow: 0px 7px 5px rgba(0, 0, 0, 0.1) inset; }
 
-.login-modal-screen-form-header-btn-color, .aux-modal-screen-form-header-btn-color { background: #e6108b; background: -moz-linear-gradient(top, #e6108b 0%, #eb1090 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #e6108b), color-stop(100%, #eb1090)); background: -webkit-linear-gradient(top, #e6108b 0%, #eb1090 100%); background: -o-linear-gradient(top, #e6108b 0%, #eb1090 100%); background: -ms-linear-gradient(top, #e6108b 0%, #eb1090 100%); background: linear-gradient(to bottom, #e6108b 0%, #eb1090 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_gradient3_color', endColorstr='$secondary_gradient3_color', GradientType=0)"; border: 1px solid #e60994; }
+.login-modal-screen-form-header-btn-color, .aux-modal-screen-form-header-btn-color { background: #5a8300; background: -moz-linear-gradient(top, #5a8300 0%, #517500 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #5a8300), color-stop(100%, #517500)); background: -webkit-linear-gradient(top, #5a8300 0%, #517500 100%); background: -o-linear-gradient(top, #5a8300 0%, #517500 100%); background: -ms-linear-gradient(top, #5a8300 0%, #517500 100%); background: linear-gradient(to bottom, #5a8300 0%, #517500 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_gradient3_color', endColorstr='$secondary_gradient3_color', GradientType=0)"; border: 1px solid #5a7703; }
 
-.login-modal-deposit-btn, .aux-modal-deposit-btn { float: right; background: #ef4fb4; background: -moz-linear-gradient(top, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ef4fb4), color-stop(48%, #ea2aa3), color-stop(51%, #d22592), color-stop(100%, #e50893)); background: -webkit-linear-gradient(top, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); background: -o-linear-gradient(top, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); background: -ms-linear-gradient(top, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); background: linear-gradient(to bottom, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_button_color', endColorstr='$quaternary_button_color', GradientType=0)"; border: 1px solid #e60994; -moz-box-shadow: inset -1px 1px 7px -1px #FFF; -webkit-box-shadow: inset -1px 1px 7px -1px #FFF; box-shadow: inset -1px 1px 7px -1px #FFF; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; /*text*/ width: 100px; font-size: 16px; padding: 7px; color: #fff; text-align: center; }
+.login-modal-deposit-btn, .aux-modal-deposit-btn { float: right; background: #ffa630; background: -moz-linear-gradient(top, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffa630), color-stop(48%, #ff8a26), color-stop(51%, #ff7600), color-stop(100%, #ff5a00)); background: -webkit-linear-gradient(top, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); background: -o-linear-gradient(top, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); background: -ms-linear-gradient(top, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); background: linear-gradient(to bottom, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_button_color', endColorstr='$quaternary_button_color', GradientType=0)"; border: 1px solid #a43f00; -moz-box-shadow: inset -1px 1px 7px -1px #FFF; -webkit-box-shadow: inset -1px 1px 7px -1px #FFF; box-shadow: inset -1px 1px 7px -1px #FFF; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; /*text*/ width: 100px; font-size: 16px; padding: 7px; color: #fff; text-align: center; }
 
-.btn-cta { background: #ef4fb4; background: -moz-linear-gradient(top, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ef4fb4), color-stop(48%, #ea2aa3), color-stop(51%, #d22592), color-stop(100%, #e50893)); background: -webkit-linear-gradient(top, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); background: -o-linear-gradient(top, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); background: -ms-linear-gradient(top, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); background: linear-gradient(to bottom, #ef4fb4 0%, #ea2aa3 48%, #d22592 51%, #e50893 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_button_color', endColorstr='$quaternary_button_color', GradientType=0)"; border: 1px solid #e60994; -moz-box-shadow: inset -1px 1px 7px -1px #FFF; -webkit-box-shadow: inset -1px 1px 7px -1px #FFF; box-shadow: inset -1px 1px 7px -1px #FFF; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; font-size: 16px; padding: 7px; color: #fff; text-align: center; }
+.btn-cta { background: #ffa630; background: -moz-linear-gradient(top, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #ffa630), color-stop(48%, #ff8a26), color-stop(51%, #ff7600), color-stop(100%, #ff5a00)); background: -webkit-linear-gradient(top, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); background: -o-linear-gradient(top, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); background: -ms-linear-gradient(top, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); background: linear-gradient(to bottom, #ffa630 0%, #ff8a26 48%, #ff7600 51%, #ff5a00 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$primary_button_color', endColorstr='$quaternary_button_color', GradientType=0)"; border: 1px solid #a43f00; -moz-box-shadow: inset -1px 1px 7px -1px #FFF; -webkit-box-shadow: inset -1px 1px 7px -1px #FFF; box-shadow: inset -1px 1px 7px -1px #FFF; -moz-border-radius: 2px; -webkit-border-radius: 2px; border-radius: 2px; font-size: 16px; padding: 7px; color: #fff; text-align: center; }
 
 /*splash*/
 .loaderSplash { background-image: url("images/loader.gif"); display: inline-block; width: 60px; height: 60px; background-size: 100%; }
 
-.bet-history-field-name { color: #e2007d; }
+.bet-history-field-name { color: #78b41e; }
 
-.bet-history-date-summary { height: 30px; line-height: 30px; padding-left: 9px; color: #e2007d; border-bottom: 1px solid #CCC; border-top: 1px solid #CCC; }
+.bet-history-date-summary { height: 30px; line-height: 30px; padding-left: 9px; color: #78b41e; border-bottom: 1px solid #CCC; border-top: 1px solid #CCC; }
 
-.copyright .contact-us { color: #e2007d; }
+.copyright .contact-us { color: #78b41e; }
 
-.ui-header-1 { background-color: black; background: linear-gradient(top, #2e2e2e, black); background-image: -o-linear-gradient(top, #2e2e2e, black); background: -moz-linear-gradient(top, #2e2e2e, black); background: -ms-linear-gradient(top, #2e2e2e, black); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$header_background_color2', endColorstr='$header_background_color1')"; background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#2e2e2e), to(black)); }
+.ui-header-1 { background-color: #69a41c; background: linear-gradient(top, #8ed325, #69a41c); background-image: -o-linear-gradient(top, #8ed325, #69a41c); background: -moz-linear-gradient(top, #8ed325, #69a41c); background: -ms-linear-gradient(top, #8ed325, #69a41c); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$header_background_color2', endColorstr='$header_background_color1')"; background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#8ed325), to(#69a41c)); }
 
-.content-header { background: #E40090; background: -webkit-gradient(linear, 0% 0, 0% 100%, color-stop(0%, #F157B8), color-stop(100%, #E40090)); }
+.content-header { background: #69A41C; background: -webkit-gradient(linear, 0% 0, 0% 100%, color-stop(0%, #8ED325), color-stop(100%, #69A41C)); }
 
-.content-header h1 { text-shadow: 1px 1px #7c0045; }
+.content-header h1 { text-shadow: 1px 1px #3e5d0f; }
 
-.form-submit { background: #e40090; background: -webkit-gradient(linear, 0% 0, 0% 100%, color-stop(0, #f157b8), color-stop(1, #e40090)); background: linear-gradient(top, #f157b8, #e40090); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$secondary_button2_color', endColorstr='$primary_button2_color')"; background-image: -o-linear-gradient(top, #f157b8, #e40090); background: -moz-linear-gradient(top, #f157b8, #e40090); border: 1px solid #959595; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.14); }
+.form-submit { background: #609619; background: -webkit-gradient(linear, 0% 0, 0% 100%, color-stop(0, #80bf22), color-stop(1, #609619)); background: linear-gradient(top, #80bf22, #609619); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$secondary_button2_color', endColorstr='$primary_button2_color')"; background-image: -o-linear-gradient(top, #80bf22, #609619); background: -moz-linear-gradient(top, #80bf22, #609619); border: 1px solid #508213; box-shadow: inset 0 1px 0 rgba(255, 255, 255, 0.2), 0 1px 2px rgba(0, 0, 0, 0.14); }
 
-.content-footer, .sport-promotions .promotions-container:after { background: #E40090; background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #F157B8), color-stop(100%, #E40090)); }
+.content-footer, .sport-promotions .promotions-container:after { background: #69A41C; background: -webkit-gradient(linear, 0% 0%, 0% 100%, color-stop(0%, #8ED325), color-stop(100%, #69A41C)); }
 
-.bet-selection-wrapper.bet-clicked, .quick-bet-item.bet-clicked, .bet-item.bet-clicked { background: #f157b8 !important; color: white !important; }
+.bet-selection-wrapper.bet-clicked, .quick-bet-item.bet-clicked, .bet-item.bet-clicked { background: #69a41c !important; color: white !important; }
 
-.bet-selection-wrapper.bet-selected.bet-odd, .quick-bet-item.bet-selected.bet-odd, .bet-item.bet-selected.bet-odd { background: #f157b8 !important; }
+.bet-selection-wrapper.bet-selected.bet-odd, .quick-bet-item.bet-selected.bet-odd, .bet-item.bet-selected.bet-odd { background: #69a41c !important; }
 
-.bet-selection-wrapper.bet-selected.bet-even, .quick-bet-item.bet-selected.bet-even, .bet-item.bet-selected.bet-even { background: #f157b8 !important; }
+.bet-selection-wrapper.bet-selected.bet-even, .quick-bet-item.bet-selected.bet-even, .bet-item.bet-selected.bet-even { background: #69a41c !important; }
 
-.bet-slip-receipt-bet-header, .backColor-message-rightsided, .total-bet-receipt-total-stake-container { background: #ffc8e7 !important; }
+.bet-slip-receipt-bet-header, .backColor-message-rightsided, .total-bet-receipt-total-stake-container { background: #e1f5c3 !important; }
 
-.dialog-green-h1, .dialog-theme-h1 { background-color: black; background: linear-gradient(top, #2e2e2e, black) !important; background-image: -o-linear-gradient(top, #2e2e2e, black) !important; background: -moz-linear-gradient(top, #2e2e2e, black) !important; background: -ms-linear-gradient(top, #2e2e2e, black) !important; filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$header_background_color2', endColorstr='$header_background_color1') !important"; background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#2e2e2e), to(black)) !important; }
+.dialog-green-h1, .dialog-theme-h1 { background-color: #69a41c; background: linear-gradient(top, #8ed325, #69a41c) !important; background-image: -o-linear-gradient(top, #8ed325, #69a41c) !important; background: -moz-linear-gradient(top, #8ed325, #69a41c) !important; background: -ms-linear-gradient(top, #8ed325, #69a41c) !important; filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$header_background_color2', endColorstr='$header_background_color1') !important"; background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#8ed325), to(#69a41c)) !important; }
 
-.welcome-continue-link, .responsible-gaming-links { background: #f157b8; background: -moz-linear-gradient(top, #f157b8 0%, #e40090 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #f157b8), color-stop(100%, #e40090)); background: -webkit-linear-gradient(top, #f157b8 0%, #e40090 100%); background: -o-linear-gradient(top, #f157b8 0%, #e40090 100%); background: -ms-linear-gradient(top, #f157b8 0%, #e40090 100%); background: linear-gradient(to bottom, #f157b8 0%, #e40090 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$secondary_button2_color', endColorstr='$primary_button2_color', GradientType=0)"; border: 1px solid #7c0045; }
+.welcome-continue-link, .responsible-gaming-links { background: #80bf22; background: -moz-linear-gradient(top, #80bf22 0%, #609619 100%); background: -webkit-gradient(linear, left top, left bottom, color-stop(0%, #80bf22), color-stop(100%, #609619)); background: -webkit-linear-gradient(top, #80bf22 0%, #609619 100%); background: -o-linear-gradient(top, #80bf22 0%, #609619 100%); background: -ms-linear-gradient(top, #80bf22 0%, #609619 100%); background: linear-gradient(to bottom, #80bf22 0%, #609619 100%); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$secondary_button2_color', endColorstr='$primary_button2_color', GradientType=0)"; border: 1px solid #3e5d0f; }
 
-.dialog-green a.ui-btn { background: linear-gradient(top, #2e2e2e, black); background-image: -o-linear-gradient(top, #2e2e2e, black); background: -moz-linear-gradient(top, #2e2e2e, black); background: -ms-linear-gradient(top, #2e2e2e, black); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$header_background_color2', endColorstr='$header_background_color1')"; background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#2e2e2e), to(black)); }
+.dialog-green a.ui-btn { background: linear-gradient(top, #8ed325, #69a41c); background-image: -o-linear-gradient(top, #8ed325, #69a41c); background: -moz-linear-gradient(top, #8ed325, #69a41c); background: -ms-linear-gradient(top, #8ed325, #69a41c); filter: "progid: DXImageTransform.Microsoft.gradient(startColorstr='$header_background_color2', endColorstr='$header_background_color1')"; background-image: -webkit-gradient(linear, 0% 0, 0% 100%, from(#8ed325), to(#69a41c)); }
 
-.ui-body-c .ui-link { color: #e2007d; }
+.ui-body-c .ui-link { color: #78b41e; }
 
 .ui-body-c, .ui-dialog.ui-overlay-c { text-shadow: none; }
 
-.iconselectholder, .hoverclas, .selectedclass { background-color: #2e2e2e; }
+.iconselectholder, .hoverclas, .selectedclass { background-color: #8ed325; }
 
-select:focus { border: 1px solid #ffc8e7; background: #959595; }
+select:focus { border: 1px solid #e1f5c3; background: #508213; }
 
-.bet-slip-receipt-bet-header-container { background: #ffc8e7; }
+.bet-slip-receipt-bet-header-container { background: #e1f5c3; }
 
-.back-button { border-right: 1px solid #000000; box-shadow: 1px 0px 0px #404149; }
+.back-button { border-right: 1px solid rgba(192, 192, 192, 0.62); box-shadow: 1px 0px 0px #598A17; }
 
-.header-right { border-left: 1px solid #000000; box-shadow: -1px 0px 0px #404149; }
+.header-right { border-left: 1px solid rgba(192, 192, 192, 0.62); box-shadow: -1px 0px 0px #598A17; }
 
 /* ------------- SPORT AND MARKET ICONS -------------  SPORT AND MARKET ICONS -------------  SPORT AND MARKET ICONS ------------- */
 .nav-arrow { float: right; height: 8px; width: 8px; background: url(images/arrow.png); background-position: center; background-repeat: no-repeat; background-size: 8px 8px; }
@@ -108,7 +108,7 @@ select:focus { border: 1px solid #ffc8e7; background: #959595; }
 
 .slider-arrow-left { height: 15px; float: left; width: 20px; background: url(images/scroll-arrow.png); margin: 14px 5px; background-repeat: no-repeat; background-position: 0 0; }
 
-.splash-screen { width: 100%; color: white; font-weight: bold; background: black; background: radial-gradient(#2e2e2e 0%, black 90%); background: -webkit-radial-gradient(#2e2e2e 0%, black 90%); }
+.splash-screen { width: 100%; color: white; font-weight: bold; background: #69a41c; background: radial-gradient(#8ed325 0%, #69a41c 90%); background: -webkit-radial-gradient(#8ed325 0%, #69a41c 90%); }
 
 #footer { background-image: url(images/footer-bg.png) !important; background-repeat: repeat; padding: 1em; background-size: 3px 3px; }
 
@@ -259,5 +259,3 @@ select:focus { border: 1px solid #ffc8e7; background: #959595; }
   .language-selector-bg-el { background-image: url("images/language-bg-el@2x.png"); background-repeat: no-repeat; background-size: 38px 20px; height: 20px; width: 38px; }
   .bet-header-right { right: 0; top: 0; position: absolute; background: url("images/expand-list@2x.png"); display: inline-block; background-repeat: no-repeat; background-size: 17px 15px; margin: 10px; margin-right: 11px; height: 16px; width: 17px; opacity: 0.35; -moz-transform: rotate(180deg); -o-transform: rotate(180deg); -webkit-transform: rotate(180deg); -ms-transform: rotate(180deg); }
   .bet-header-down { background-image: url("images/collapse-list@2x.png"); -moz-transform: rotate(0deg); -o-transform: rotate(0deg); -webkit-transform: rotate(0deg); -ms-transform: rotate(0deg); } }
-
-/*# sourceMappingURL=style_purple.css.map */
