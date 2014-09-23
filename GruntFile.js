@@ -106,9 +106,12 @@ module.exports = function(grunt) {
         },
 
         watch: {
-            scripts: {
+            stylesheets: {
                 files: 'scss/style.scss',
-                tasks: ['build']
+                tasks: ['build'],
+                options: {
+                    livereload: true,
+                },
             },
         },
 
@@ -123,5 +126,5 @@ module.exports = function(grunt) {
 
     grunt.registerTask('build', ['jshint', 'clean', 'sass', 'copy']);
 
-    grunt.registerTask('dev', ['build','watch']);
+    grunt.registerTask('dev', ['build', 'watch']);
 };
