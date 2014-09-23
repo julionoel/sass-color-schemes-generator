@@ -103,7 +103,14 @@ module.exports = function(grunt) {
                     dest: stanjamesFolder + '/css/theme.css'
                 }]
             }
-        }
+        },
+
+        watch: {
+            scripts: {
+                files: 'scss/style.scss',
+                tasks: ['build']
+            },
+        },
 
 
 
@@ -112,9 +119,9 @@ module.exports = function(grunt) {
     // Actually load this plugin's task(s).
     grunt.loadTasks('tasks');
 
-
     grunt.registerTask('html', ['clean', 'sass', 'palettable']);
 
-
     grunt.registerTask('build', ['jshint', 'clean', 'sass', 'copy']);
+
+    grunt.registerTask('dev', ['build','watch']);
 };
